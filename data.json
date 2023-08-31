@@ -8,10 +8,10 @@
   },
 
   {
-    "file": "experiments/art.js",
-    "name": "Generative Art",
-    "description": "My attempt to create art",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "file": "experiments/circles.js",
+    "name": "Spinning Circles",
+    "description": "Circles are spinning in an empty room, similar to planets or moons in an orbit",
+    "background": "Every object has a different size, speed and movement path that seems similar, but always diverges.",
     "github": "https://www.github.com/LukesHoodie"
   }
 ]
