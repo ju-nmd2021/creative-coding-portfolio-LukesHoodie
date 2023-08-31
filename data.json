@@ -26,8 +26,8 @@
   {
     "file": "experiments/tree.js",
     "name": "Tree",
-    "description": "Circles are spinning in an empty room, similar to planets or moons in an orbit",
-    "background": "Every object has a different size, speed and movement path that seems similar, but always diverges.",
+    "description": "under construction",
+    "background": "",
     "github": "https://www.github.com/LukesHoodie"
   }
 ]
