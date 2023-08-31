@@ -13,6 +13,22 @@
     "description": "Circles are spinning in an empty room, similar to planets or moons in an orbit",
     "background": "Every object has a different size, speed and movement path that seems similar, but always diverges.",
     "github": "https://www.github.com/LukesHoodie"
+  },
+
+  {
+    "file": "experiments/wave.js",
+    "name": "Colourful Wave",
+    "description": "A rounded rectangle spins from left to right, creating a wave effect through after images",
+    "background": "Continuous rectangles spinning clockwise and then counter-clockwise, creating a rippling wave effect in the inside that is intensified by the changing colours.",
+    "github": "https://www.github.com/LukesHoodie"
+  },
+
+  {
+    "file": "experiments/tree.js",
+    "name": "Tree",
+    "description": "Circles are spinning in an empty room, similar to planets or moons in an orbit",
+    "background": "Every object has a different size, speed and movement path that seems similar, but always diverges.",
+    "github": "https://www.github.com/LukesHoodie"
   }
 ]
 
