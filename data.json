@@ -1,13 +1,5 @@
 [
   {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
-    "github": "https://www.github.com/pixelkind"
-  },
-
-  {
     "file": "experiments/circles.js",
     "name": "Spinning Circles",
     "description": "Circles are spinning in an empty room, similar to planets or moons in an orbit",
@@ -20,6 +12,14 @@
     "name": "Colourful Wave",
     "description": "A rounded rectangle spins from left to right, creating a wave effect through after images",
     "background": "Continuous rectangles spinning clockwise and then counter-clockwise, creating a rippling wave effect in the inside that is intensified by the changing colours.",
+    "github": "https://www.github.com/LukesHoodie"
+  },
+
+  {
+    "file": "experiments/flowfield.js",
+    "name": "Colourful Flow Field",
+    "description": "Click to generate a new flow field. Press P to save the flow field as a png.",
+    "background": "Colours and Shape are randomized, showing more or less detail depending on the iteration.",
     "github": "https://www.github.com/LukesHoodie"
   },
 

@@ -18,13 +18,13 @@ function draw() {
 
     translate(width /2, height /2.5);
 
-    for (var i = 0; i < 100; i++) {
+    for (let i = 0; i < 100; i++) {
     push();
      rotate(sin(frameCount + i) *100);
 
-      var r = map(sin(frameCount), -1, 1, 50, 255);
-      var g = map(cos(frameCount/2), -1, 1, 50, 255);
-      var b = map(sin(frameCount/4), -1, 1, 50, 255);
+      let r = map(sin(frameCount), -1, 1, 50, 255);
+      let g = map(cos(frameCount/2), -1, 1, 50, 255);
+      let b = map(sin(frameCount/4), -1, 1, 50, 255);
 
       stroke(r, g, b);
 
