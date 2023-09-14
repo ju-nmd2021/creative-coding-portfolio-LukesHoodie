@@ -1,0 +1,14 @@
+body,
+html {
+  margin: 0px auto;
+  background-color: rgb(128, 134, 138);
+}
+
+#playBtn {
+  margin-top: 10%;
+  margin-left: 30%;
+  color: bisque;
+  background-color: rgb(86, 43, 226);
+  font-size: 30px;
+  padding: 20px;
+}
