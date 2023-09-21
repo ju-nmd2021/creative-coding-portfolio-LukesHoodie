@@ -1,4 +1,4 @@
-const synth = new Tone.Synth().toDestination();
+const synth = new Tone.PolySynth().toDestination();
 const pingPongDelay = new Tone.PingPongDelay("4n", 0.5).toDestination();
 
 synth.connect(pingPongDelay);
@@ -11,26 +11,22 @@ function setup() {
 }
 
 function draw() {
-  fill(200, 50, 80);
+  noFill();
   stroke (200, 50, 80);
-  strokeWeight(4)
-  ellipse(500,300, 150, 150);
+  strokeWeight(7);
+  ellipse(800,300, 550, 550);
 
+  push();
+  strokeWeight(1);
+  stroke(255);
   if (mouseIsPressed === true) {
-    line(mouseX, mouseY, pmouseX, pmouseY);
+    ellipse (pmouseX, pmouseY, 100);
     {
       if (Tone.context.state !== "running") {
         Tone.start();
       }
-      synth.triggerAttackRelease("G2", "8n");
+      synth.triggerAttackRelease(["C2, E2, G2"], "8n");
     }
   }
 }
-
-/* function mouseClicked() {
-  if (value === 0) {
-    value = 255;
-  } else {
-    value = 0;
-  }
-} */
+pop();

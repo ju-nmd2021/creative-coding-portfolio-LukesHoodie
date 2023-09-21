@@ -8,9 +8,25 @@
   },
 
   {
+    "file": "experiments/circles2.js",
+    "name": "Spinning Cones",
+    "description": "Afterimages of circles create tubes that intertwine from time to time",
+    "background": "Every object has a different size, speed and movement path that seems similar, but always diverges.",
+    "github": "https://www.github.com/LukesHoodie"
+  },
+
+  {
     "file": "experiments/wave.js",
     "name": "Colourful Wave",
     "description": "A rounded rectangle spins from left to right, creating a wave effect through after images",
+    "background": "Continuous rectangles spinning clockwise and then counter-clockwise, creating a rippling wave effect in the inside that is intensified by the changing colours.",
+    "github": "https://www.github.com/LukesHoodie"
+  },
+
+  {
+    "file": "experiments/wave2.js",
+    "name": "Colourful wavy Rectangle",
+    "description": "A rectangle spins from left to right with a rectengular hole in the middle, creating a wave effect through after images. It also gives the image of twisted fabric.",
     "background": "Continuous rectangles spinning clockwise and then counter-clockwise, creating a rippling wave effect in the inside that is intensified by the changing colours.",
     "github": "https://www.github.com/LukesHoodie"
   },
@@ -24,12 +40,29 @@
   },
 
   {
-    "file": "experiments/tree.js",
-    "name": "Tone",
-    "description": "under construction",
-    "background": "",
+    "file": "experiments/flowfield2.js",
+    "name": "Colourful Flow Field",
+    "description": "Click to generate a new flow field. Press P to save the flow field as a png.",
+    "background": "Colours and Shape are randomized, showing more or less detail depending on the iteration.",
+    "github": "https://www.github.com/LukesHoodie"
+  },
+
+  {
+    "file": "experiments/tone.js",
+    "name": "Warped Tone",
+    "description": "Draw and create cyclic shapes matching the tones played",
+    "background": "A MonoSynth has been combined with PingPong Delay and a sequence of tones to create a warped sound and draw effect that reminds me of synthwave music and space.",
+    "github": "https://www.github.com/LukesHoodie"
+  },
+
+  {
+    "file": "experiments/tone2.js",
+    "name": "Accort",
+    "description": "use headphones",
+    "background": "A low accord is played while pressing the mouse with a pingpong effect over it",
     "github": "https://www.github.com/LukesHoodie"
   }
+
 ]
 
 
